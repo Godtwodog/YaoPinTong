@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar_homeFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+       <!--&gt;-->
+    <!--</android.support.v7.widget.Toolbar>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.jack.yaopintong.Help.MyImageButton
+        android:id="@+id/imageButton_find"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_scan_find"/>
+    <com.jack.yaopintong.Help.MyImageButton
+        android:id="@+id/imageButton_doctor"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/ic_consult_doctor"/>
+    <com.jack.yaopintong.Help.MyImageButton
+        android:id="@+id/imageButton_remind"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_drug_remind"/>
+    <com.jack.yaopintong.Help.MyImageButton
+        android:id="@+id/imageButton_ill"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_ill_find"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <ImageView
+            android:id="@+id/imageButton_homeFragment"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:src="@drawable/jiatingyaoxiang"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:src="@drawable/bugai"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/homeFragment_item_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="感冒用药"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

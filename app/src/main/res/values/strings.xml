@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YaoPinTong</string>
+    <string name="main_home">首页</string>
+    <string name="main_type">分类</string>
+    <string name="main_near">附近</string>
+    <string name="main_mint">我</string>
+</resources>
