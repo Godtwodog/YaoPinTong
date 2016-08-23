@@ -25,7 +25,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
 
     private void initView() {
     radioGroupMain.setOnCheckedChangeListener(this);
-        radioGroupMain.check(R.id.radioButton_home);//设置默认选中第一个碎片
+        radioGroupMain.check(R.id.radioButton_type);//设置默认选中第一个碎片
     }
 
     @Override
